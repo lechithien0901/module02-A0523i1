@@ -1,4 +1,4 @@
-package ss06_inheritance;
+package ss06_inheritance.exercise;
 
 public class Point {
     private  float x=5.0f;

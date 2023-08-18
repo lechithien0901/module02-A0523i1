@@ -1,4 +1,4 @@
-package ss06_inheritance;
+package ss06_inheritance.exercise;
 
 public class MovablePoint extends Point {
     private float xSpeed=7.0f;

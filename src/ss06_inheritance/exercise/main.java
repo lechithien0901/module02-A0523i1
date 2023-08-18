@@ -1,4 +1,4 @@
-package ss06_inheritance;
+package ss06_inheritance.exercise;
 
 public class main {
     public static void main(String[] args) {
