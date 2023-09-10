@@ -38,8 +38,10 @@ public class CustomerController {
             case 3:
                 System.out.println("Bạn vừa chọn chức năng sửa của danh sách");
                 iCustomerService.fixCustomer();
+                break;
             case 4:
                 iCustomerService.deleteCustomer();
+
 break;
             case 5:
                 System.out.println("bạn vừa chọn tìm thông tin theo sản phẩm");

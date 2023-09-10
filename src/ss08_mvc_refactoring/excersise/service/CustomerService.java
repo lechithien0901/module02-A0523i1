@@ -106,7 +106,7 @@ Customer customer[]=iCustomerRepository.findAll();
 
     @Override
     public void deleteCustomer() {
-        System.out.println("mời bạn nhập id phần tử mà bạn muốn xóa : ");
+        System.out.println("mời bạn nhập vị trị bạn muốn xóa : ");
         int id=Integer.parseInt(scanner.nextLine());
         iCustomerRepository.deleteCustomer(id);
 

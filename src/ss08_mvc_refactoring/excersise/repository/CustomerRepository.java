@@ -49,6 +49,7 @@ size++;
         for (int i = id; i <getSize(); i++) {
             if (i==0){
                 for (int j = 0; j <size-1 ; j++) {
+                    System.out.println("phần tử được xóa đó là");
                     customers[j]=customers[j+1];
 
 
