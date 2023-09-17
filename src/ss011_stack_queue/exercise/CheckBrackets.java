@@ -43,7 +43,7 @@ public class CheckBrackets {
         System.out.println("mời bạn nhập chuỗi cần thêm");
         String stringNeedCheck=scanner.nextLine();
         CheckBrackets checkBrackets=new CheckBrackets();
-        System.out.println(        checkBrackets.isCheckBrakets(stringNeedCheck)
+        System.out.println( checkBrackets.isCheckBrakets(stringNeedCheck)
         );
         if (checkBrackets.isCheckBrakets(stringNeedCheck)){
             System.out.println("phép tính hoàn toàn đúng");
