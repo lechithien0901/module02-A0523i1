@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Employee implements Serializable {
     private String employeeCode;
     private String nameEmployee;
-    private int dateOfEmployee;
+    private String dateOfEmployee;
     private String genderOfEmployee;
     private String idCard;
     private String numberCallOfEmployee;
@@ -28,7 +28,7 @@ public class Employee implements Serializable {
         return Objects.hash(nameEmployee);
     }
 
-    public Employee(String employeeCode, String nameEmployee, int dateOfEmployee, String genderOfEmployee, String idCard, String numberCallOfEmployee, String emailOfEmployee, String level, String location, double salary) {
+    public Employee(String employeeCode, String nameEmployee, String dateOfEmployee, String genderOfEmployee, String idCard, String numberCallOfEmployee, String emailOfEmployee, String level, String location, double salary) {
         this.employeeCode = employeeCode;
         this.nameEmployee = nameEmployee;
         this.dateOfEmployee = dateOfEmployee;
@@ -60,11 +60,11 @@ public class Employee implements Serializable {
         this.nameEmployee = nameEmployee;
     }
 
-    public int getDateOfEmployee() {
+    public String getDateOfEmployee() {
         return dateOfEmployee;
     }
 
-    public void setDateOfEmployee(int dateOfEmployee) {
+    public void setDateOfEmployee(String dateOfEmployee) {
         this.dateOfEmployee = dateOfEmployee;
     }
 

@@ -1,6 +1,5 @@
 package ss017_binary_file.exercise.repository;
 
-import ss017_binary_file.exercise.controller.ProductController;
 import ss017_binary_file.exercise.model.Product;
 
 import java.io.*;
@@ -74,7 +73,8 @@ public class ProductRespository implements IProductRespository {
     @Override
     public void findProduct(String name) {
         boolean check=false;
-        try{ ProductRespository productRespository=new ProductRespository();
+        try{
+            ProductRespository productRespository=new ProductRespository();
             productRespository.writeProduct(productArrayList);
             ArrayList<Product>arrayList=new ArrayList<>();
             arrayList=(ArrayList<Product>) productRespository.reaProduct();

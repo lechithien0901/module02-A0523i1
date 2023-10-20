@@ -15,7 +15,12 @@ public class RepositoryProduct implements IRepositoryProduct  {
         }
 
     };
-
+    Comparator<Product>productComparator=new Comparator<Product>() {
+        @Override
+        public int compare(Product o1, Product o2) {
+            return o1.getNameOfProduct().compareTo(o2.getNameOfProduct());
+        }
+    };
 
     static {
         productArrayList.add(new Product(0, "nguyen van a", 6000, "sản phẩm có màu vàng"));
@@ -85,6 +90,7 @@ public class RepositoryProduct implements IRepositoryProduct  {
                 for (Product product:productArrayList){
                     System.out.println(product);
                 }
+
 
                 break;
             case 2:
